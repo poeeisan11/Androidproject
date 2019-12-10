@@ -13,9 +13,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Num1"
-            android:layout_weight="1"></TextView>
+            android:layout_weight="1"
+           ></TextView>
 
         <EditText
+            android:id="@+id/edtnum1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"></EditText>
@@ -33,18 +35,43 @@
             android:layout_weight="1"></TextView>
 
         <EditText
+            android:id="@+id/edtnum2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"></EditText>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="result"></TextView>
+
+        <EditText
+            android:id="@+id/edtresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></EditText>
+
+
+
+    </LinearLayout>
+
     <Button
+        android:onClick="buAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add"></Button>
+
     <Button
+        android:onClick="buSubtract"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Subtract"></Button>
+        android:text="Subtract" />
 </LinearLayout>

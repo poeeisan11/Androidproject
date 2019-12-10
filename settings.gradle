@@ -1,2 +1,2 @@
-include ':app', ':javalip'
+include ':app', ':javalip', ':lib2', ':avajlib'
 rootProject.name='myapp'
