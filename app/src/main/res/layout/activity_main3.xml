@@ -45,12 +45,14 @@
 
 </LinearLayout>
     <Button
+        android:onClick="buclick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add"
         android:textAllCaps="false"
         ></Button>
     <Button
+        android:onClick="buckick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Subtract"

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:id="@+id/imagepannel"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/superpicture"></ImageView>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_play"
+        android:backgroundTint="@color/errorColor"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorwhite"
+            android:text="7.8"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:alpha="0.5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/successColor"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_below="@id/imagepannel"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/zgf"
+        android:text="ေနာက္ဆံုးစီစင္ၿဖစ္တာနဲ႕အညီ တင္ခ်င္လုိ႕တင္လိုက္ပါတယ္
+
+အရင္အပိုင္းေတြကေတာ႔ ၿပန္တင္ဖုိ႕အစီအစဥ္မရွိပါဘူးခင္ဗ်ာ
+
+အခု season ကေတာ႔ ေသခ်ာေပါက္ up to date အေနနဲ႕
+
+အၿမန္ဆံုးတင္ဆက္ေပးသြားမွာပဲၿဖစ္ပါတယ္
+
+14 ႏွစ္ဆုိတာကာလရွည္ကိုေက်ာ္ၿဖတ္ၿပီးေတာ႕
+
+ကြ်န္ေတာ္တို႕အသည္းစြဲ SUPERNATURAL စီးရီးတြဲဟာလည္း
+
+Final Season ကိုေရာက္ရွိလို႔လာပါၿပီ..
+
+အရင္ season 14 ေနာက္ဆံုးမွာ မထင္မွတ္ထားတဲ႔
+
+လွည္႕ကြက္ေတြနဲ႕အတူဇာတ္သိမ္းသြားတာကို
+
+သိၾကၿပီးၿဖစ္မွာပါ..God ဟာ တခ်ိန္လံုး သူတို႕ကို
+
+လွည္႔စားေနခဲ႔ၿပီး အၿဖစ္မွန္ ကို ဆမ္နဲ႕ဒင္းန္ နဲ႕
+
+သိရွိသြားတဲ႔အခ်ိန္ နက္ဖလင္ ဂ်က္ ကိုသတ္ပစ္လိုက္ၿပီး
+
+ငရဲတံခါးဖြင္႔လိုက္ပါေတာ႔တယ္..ဒီေတာ႔ ဒင္းန္နဲ႕ဆမ္တို႕
+
+14 ႏွစ္တာ ကာလ ႏွိမ္နင္းခဲ႔တဲ႔မေကာင္းဆုိး၀ါး ေတြ
+
+သရဲေတြအကုန္ ကမာၻေပၚကိုၿပန္လည္ေရာက္ရွိလာပါတယ္
+
+ဘယ္လိုေတြဆက္ၿဖစ္ၾကမလဲဆုိတာ season 15 Final Season
+
+မွာ ကြ်န္ေတာ္တို႕အေၿဖရွာၾကည္႕လိုက္ရေအာင္ဗ်ာ"/>
+    </RelativeLayout>
+
+
+
+

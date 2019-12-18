@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/movienav"
+    android:title="movie"
+    android:icon="@drawable/ic_movie"/>
+    <item
+        android:id="@+id/serienav"
+        android:title="series"
+        android:icon="@drawable/ic_serie"/>
+    <item
+        android:id="@+id/categorynav"
+        android:title="category"
+      android:icon="@drawable/ic_category"/>
+</menu>

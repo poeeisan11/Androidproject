@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal"
-    android:layout_width="match_parent"
+<RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout
+        android:id="@+id/framelayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/bottomnav"/>
+        android:layout_above="@id/bottomnav"
+        />
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/bottomnavheight"
+        android:layout_height="50dp"
         android:background="@color/infoColor"
-        app:itemIconTint="@color/colorwhite"
-        app:itemTextColor="@color/colorwhite"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/movieadminpanelmenu"
-        android:id="@+id/bottomnav"/>
-
+        app:menu="@menu/bottomnavmenu"
+        app:itemIconTint="@color/colorwhite"
+        app:itemTextColor="@color/errorColor"
+        />
 </RelativeLayout>
-
-

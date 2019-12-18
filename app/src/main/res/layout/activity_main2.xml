@@ -64,13 +64,15 @@
     </LinearLayout>
 
     <Button
-        android:onClick="buAdd"
+        android:id="@+id/addb"
+        android:onClick="buclick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add"></Button>
 
     <Button
-        android:onClick="buSubtract"
+        android:id="@+id/subb"
+        android:onClick="buclick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Subtract" />
