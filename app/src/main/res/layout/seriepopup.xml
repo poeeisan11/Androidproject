@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:text="Add new serie"
+        android:textSize="20sp"
+        android:paddingLeft="100dp"
+        android:textAllCaps="false"
+        android:textColor="@color/errorColor"></TextView>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:text="Series name"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/errorColor"></TextView>
+<EditText
+    android:id="@+id/seriename"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/edtheight"
+   android:background="@drawable/edtserie"
+    android:layout_marginTop="10dp"
+    android:hint="Serie name"
+    android:layout_marginBottom="10dp"
+    android:paddingLeft="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:text="Serie image link"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/errorColor"></TextView>
+    <EditText
+        android:id="@+id/serieimage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:background="@drawable/edtserie"
+        android:hint="Serie image link"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:text="Serie category"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/errorColor"></TextView>
+    <Spinner
+        android:id="@+id/seriecategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:text="Serie video"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/errorColor"></TextView>
+    <EditText
+        android:id="@+id/serievideo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtheight"
+        android:background="@drawable/edtserie"
+        android:hint="Serie video link"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"></EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SAVE"
+            android:id="@+id/saveserie"
+            android:textAllCaps="false"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@color/infoColor"></Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CANCEL"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@color/infoColor"
+            android:layout_margin="30dp"></Button>
+    </LinearLayout>
+</LinearLayout>

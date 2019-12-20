@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".movieFragment">
+    tools:context=".category1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent"  >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="search movie"
+            android:drawableRight="@drawable/ic_search"
+            android:drawableTint="@color/colorAccent"
+            android:background="@drawable/searchbg"
+            android:layout_margin="4dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/floatingbutton"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="25dp"
+            />
+    </RelativeLayout>
 
 </FrameLayout>

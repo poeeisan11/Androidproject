@@ -27,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.mainframe,new category1Fragment());
                     fragmentTransaction.commit();
                 }
+                if(R.id.serienav==menuItem.getItemId())
+                {
+                    FragmentManager fragmentManager=getSupportFragmentManager();
+                    FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
+                    fragmentTransaction.replace(R.id.mainframe,new SerieFragment());
+                    fragmentTransaction.commit();
+                }
                 return true;
             }
         });

@@ -4,12 +4,13 @@
     android:layout_width="@dimen/categorypopupwidth"
     android:layout_height="@dimen/categorypopupheight">
 
-<TextView
-    android:layout_width="@dimen/categorypopupwidth"
-    android:layout_height="30dp"
-    android:text="Category name"
-    android:textColor="@color/errorColor"/>
+    <TextView
+        android:layout_width="@dimen/categorypopupwidth"
+        android:layout_height="30dp"
+        android:text="Category name"
+        android:textColor="@color/errorColor"/>
     <EditText
+        android:id="@+id/category_name"
         android:layout_width="@dimen/categorypopupwidth"
         android:layout_height="wrap_content"
         android:hint="category name"/>
@@ -23,16 +24,17 @@
             android:layout_margin="30dp"
             android:layout_height="50dp"
             android:text="save"
+            android:id="@+id/save_category"
             android:layout_weight="1"
             android:textColor="@color/colorwhite"/>
-    <Button
-        android:layout_width="match_parent"
-        android:background="@color/errorColor"
-        android:layout_margin="30dp"
-        android:layout_height="50dp"
-        android:text="cancel"
-        android:layout_weight="1"
-        android:textColor="@color/colorwhite"/>
-</LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:background="@color/errorColor"
+            android:layout_margin="30dp"
+            android:layout_height="50dp"
+            android:text="cancel"
+            android:layout_weight="1"
+            android:textColor="@color/colorwhite"/>
+    </LinearLayout>
 
 </LinearLayout>

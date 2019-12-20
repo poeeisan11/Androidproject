@@ -10,7 +10,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QuerySnapshot;
 
 
 /**
@@ -38,6 +43,19 @@ public class category1Fragment extends Fragment {
                 cat.show(fragmentManager,"Show Fragment");
             }
         });
+        ListView listView=view.findViewById(R.id.category_list);
+        ArrayList<CategoryModel> categoryModels=new ArrayList<CategoryModel>();
+        FirebaseFirestore db=FirebaseFirestore.getInstance();
+        CollectionReference categories=db.collection("categories");
+        categories.get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+            @Override
+            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                for(DocumentSnapshot s:queryDocumentSnapshots)
+                {
+
+                }
+            }
+        })
         return view;
     }
 
